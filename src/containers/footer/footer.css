@@ -1,0 +1,135 @@
+.zhiroo__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zhiroo__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.zhiroo__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.zhiroo__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+.zhiroo__footer-btn p {
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 2px;
+    color: #fff;
+}
+
+.zhiroo__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+.zhiroo__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+.zhiroo__footer-links_logo {
+    display: flex;
+    flex-direction: column  ;
+}
+.zhiroo__footer-links_logo img {
+    width: 118px;
+    border-radius: 40%;
+
+    margin-bottom: 1rem;
+}
+
+.zhiroo__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+.zhiroo__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.zhiroo__footer-links_div h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.zhiroo__footer-links_div p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.zhiroo__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.zhiroo__footer-copyright p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .zhiroo__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .zhiroo__footer-heading h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .zhiroo__footer-links div {
+        margin: 1rem 0;
+    }
+    .zhiroo__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .zhiroo__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}

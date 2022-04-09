@@ -1,0 +1,117 @@
+.zhiroo__navbar {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.zhiroo__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.zhiroo_navbar-links_logo img {
+    width: 60px;
+    height: 55px;
+    border-radius: 40%;
+}
+
+.zhiroo__navbar-links__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.zhiroo__navbar-sign {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+}
+
+.zhiroo__navbar-links__container p,
+.zhiroo__navbar-sign p,
+.zhiroo__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.zhiroo__navbar-sign button,
+.zhiroo__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #550817;
+    font-family: var(--font-family);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.zhiroo__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.zhiroo__navbar-menu svg {
+    cursor: pointer;
+}
+
+.zhiroo__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.zhiroo__navbar-menu_container p {
+    margin: 1rem 0;
+}
+.zhiroo__navbar-menu_container-links-sign {
+    display: none;
+}
+/* ----------- Per Tablet ------------ */
+@media screen and (max-width: 1024px ){
+    .zhiroo__navbar-links__container {
+        display: none;
+    }
+    .zhiroo__navbar-menu {
+        display: flex;
+    }
+}
+/* ----------- Per Telefon ------------ */
+@media screen and (max-width: 700px ){
+    .zhiroo__navbar {
+        padding: 2rem 4rem;
+    }
+}
+/* ----------- Per Telefon ------------ */
+@media screen and (max-width: 550px ){
+    .zhiroo__navbar {
+        padding: 2rem;
+    }
+    .zhiroo__navbar-sign {
+        display: none;
+    }
+    .zhiroo__navbar-menu_container {
+        top: 20px;
+    }
+    .zhiroo__navbar-menu_container-links-sign {
+        display: block;
+    }
+}
