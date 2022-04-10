@@ -16,7 +16,6 @@ const Footer = () => {
         <div className='zhiroo__footer-links'>
           <div className='zhiroo__footer-links_logo'>
             <img src={logo}  alt="logo"/>
-            <p>All rights reserved</p>
           </div>
           <div className='zhiroo__footer-links_div'>
             <h4>Links</h4>

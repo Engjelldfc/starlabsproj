@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+
 }
 
 .zhiroo__navbar-links {
@@ -16,6 +17,7 @@
     width: 60px;
     height: 55px;
     border-radius: 40%;
+    cursor: pointer;
 }
 
 .zhiroo__navbar-links__container {
@@ -40,6 +42,11 @@
     text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
+}
+.zhiroo__navbar-links__container p:hover,
+.zhiroo__navbar-sign p:hover,
+.zhiroo__navbar-menu_container p:hover {
+    text-decoration: underline;
 }
 .zhiroo__navbar-sign button,
 .zhiroo__navbar-menu_container button {

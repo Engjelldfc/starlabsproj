@@ -103,6 +103,9 @@
     .zhiroo__header-content {
         margin: 0 0 3rem;
     }
+    .zhiroo__header-image {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 650px) {
     .zhiroo__header h1 {

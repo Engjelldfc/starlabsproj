@@ -29,7 +29,16 @@ const Features = () => {
           Why us ?
         </h1>
         <p>
-          Request early access for 5% discount on every order!
+        1.Best Prices Anywhere
+        Our abundant stock size gives us confidence that our prices are the lowest that you will find!<br></br>
+        2.Safety Guarantee
+        Having 12 years of experience in the business allows us to efficiently and confidently deal with all kinds of issues.<br></br>
+        3.24 Hours Guarantee
+        With professional online service group, we can guarantee 24/7 high quality service.<br></br>
+        4.100% Refund Policy
+        100% Money-back Refunds can be made as long as the order
+        is cancelled before the goods arrive.
+        Most reimursements will take up to 24-48 hours to be processed.
         </p>
       </div>
       <div className='zhiroo__features-container'>

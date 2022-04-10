@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='zhiroo__navbar'>
       <div className='zhiroo__navbar-links'>
         <div className='zhiroo_navbar-links_logo'>
-          <img src={logo} alt="logo"/>
+          <a href='#'><img src={logo} alt="logo"/></a>
         </div>
         <div className='zhiroo__navbar-links__container'>
           <Menu />

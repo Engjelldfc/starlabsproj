@@ -1,7 +1,22 @@
 import React from 'react'
 import './header.css'
 import people from '../../assets/people.png'
-import ai from '../../assets/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.png'
+import { Swiper, SwiperSlide } from "swiper/react";
+import header1 from '../../assets/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.png'
+import header2 from '../../assets/Strongest-OSRS-Bosses-Sotetseg.png'
+import header3 from '../../assets/Nex.png'
+import header4 from '../../assets/1200px-Cerberus.png'
+import header5 from '../../assets/png-Runescape-Old-School-Boss-Queen-Black-Dragon-Rs3-black-dragon_thumbnail.png'
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
+
 
 const Header = () => {
   return (
@@ -18,9 +33,28 @@ const Header = () => {
           <p>1600 People requested access</p>
         </div>
       </div>
-      <div className='zhiroo__header-image'>
-          <img src={ai} alt="ai" />
-        </div>
+      <>
+      <Swiper
+        spaceBetween={50}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: false,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="zhiroo__header-image"
+      >
+        <SwiperSlide><img src={header4}/></SwiperSlide>
+        <SwiperSlide><img src={header1}/></SwiperSlide>
+        <SwiperSlide><img src={header2}/></SwiperSlide>
+        <SwiperSlide><img src={header3}/></SwiperSlide>
+        <SwiperSlide><img src={header5}/></SwiperSlide>
+      </Swiper>
+    </>
     </div>
   )
 }
