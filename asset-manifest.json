@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/starlabsproj/static/css/main.7013cb95.css",
-    "main.js": "/starlabsproj/static/js/main.40fc4a51.js",
+    "main.css": "/starlabsproj/static/css/main.ab699964.css",
+    "main.js": "/starlabsproj/static/js/main.30e7003f.js",
     "static/media/blog03.png": "/starlabsproj/static/media/blog03.adf376225772de7abe87.png",
     "static/media/blog01.png": "/starlabsproj/static/media/blog01.5ac31c3dc335c6c52060.png",
     "static/media/logo.gif": "/starlabsproj/static/media/logo.cb51d230b20cd07cbf88.gif",
-    "static/media/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.png": "/starlabsproj/static/media/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.88399fe558ca8723a4f5.png",
+    "static/media/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.png": "/starlabsproj/static/media/toppng.com-freeuse-champion-vector-league-legend-poster-league-of-legends-yasuo-1149x718.da65c7b8913649c2399b.png",
+    "static/media/1200px-Cerberus.png": "/starlabsproj/static/media/1200px-Cerberus.dc69ad76c8bcf7f63845.png",
     "static/media/blog05.png": "/starlabsproj/static/media/blog05.4ce2bb60dc3418a03188.png",
     "static/media/blog02.png": "/starlabsproj/static/media/blog02.8b82823fe159f8ca3331.png",
     "static/media/blog04.png": "/starlabsproj/static/media/blog04.9932c4fa1f6251ddacc5.png",
+    "static/media/Strongest-OSRS-Bosses-Sotetseg.png": "/starlabsproj/static/media/Strongest-OSRS-Bosses-Sotetseg.b4f72d8020e8a77896a5.png",
+    "static/media/Nex.png": "/starlabsproj/static/media/Nex.592abf36a131addbb65c.png",
+    "static/media/png-Runescape-Old-School-Boss-Queen-Black-Dragon-Rs3-black-dragon_thumbnail.png": "/starlabsproj/static/media/png-Runescape-Old-School-Boss-Queen-Black-Dragon-Rs3-black-dragon_thumbnail.e292293fa933c7fc37f4.png",
     "static/media/people.png": "/starlabsproj/static/media/people.5cd2d6fbcd48bd63f106.png",
     "index.html": "/starlabsproj/index.html",
-    "main.7013cb95.css.map": "/starlabsproj/static/css/main.7013cb95.css.map",
-    "main.40fc4a51.js.map": "/starlabsproj/static/js/main.40fc4a51.js.map"
+    "main.ab699964.css.map": "/starlabsproj/static/css/main.ab699964.css.map",
+    "main.30e7003f.js.map": "/starlabsproj/static/js/main.30e7003f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7013cb95.css",
-    "static/js/main.40fc4a51.js"
+    "static/css/main.ab699964.css",
+    "static/js/main.30e7003f.js"
   ]
 }
